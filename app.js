@@ -40,7 +40,7 @@ function generarNumeroSecreto() {
     let numeroGenerado =  Math.floor(Math.random()*numeroMaximo)+1;
 
     if(listaNumeroSorteados.length == numeroMaximo){
-        asignarTextoElemento(`p`, `No hay más mas numeros mi rey, intente de nuevo`)
+        asignarTextoElemento(`p`, `No hay más numeros mi rey, intente de nuevo`)
     }else{
 
         if (listaNumeroSorteados.includes(numeroGenerado)){
